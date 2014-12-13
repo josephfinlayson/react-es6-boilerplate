@@ -1,0 +1,8 @@
+{
+  "name": "es6-experiments",
+  "private": true,
+  "dependencies": {
+    "bootstrap-sass-official": "~3.3.1",
+    "modernizr": "~2.8.1"
+  }
+}
