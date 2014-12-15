@@ -1,0 +1,191 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/joe/.nvm/v0.10.33/bin/node',
+1 verbose cli   '/home/joe/.nvm/v0.10.33/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/home/joe/www/es6-experiments',
+5 verbose install   [ 'gulp-sourcemaps',
+5 verbose install     'qwest',
+5 verbose install     'systemjs',
+5 verbose install     'vinyl-transform',
+5 verbose install     'apache-server-configs',
+5 verbose install     'connect',
+5 verbose install     'connect-livereload',
+5 verbose install     'del',
+5 verbose install     'gulp',
+5 verbose install     'gulp-autoprefixer',
+5 verbose install     'gulp-cache',
+5 verbose install     'gulp-csso',
+5 verbose install     'gulp-filter',
+5 verbose install     'gulp-flatten',
+5 verbose install     'gulp-if',
+5 verbose install     'gulp-imagemin',
+5 verbose install     'gulp-inject',
+5 verbose install     'gulp-jshint',
+5 verbose install     'gulp-livereload',
+5 verbose install     'gulp-load-plugins',
+5 verbose install     'gulp-minify-html',
+5 verbose install     'gulp-plumber',
+5 verbose install     'gulp-replace',
+5 verbose install     'gulp-ruby-sass',
+5 verbose install     'gulp-size',
+5 verbose install     'gulp-uglify',
+5 verbose install     'gulp-useref',
+5 verbose install     'jshint-stylish',
+5 verbose install     'lazypipe',
+5 verbose install     'main-bower-files',
+5 verbose install     'opn',
+5 verbose install     'serve-index',
+5 verbose install     'serve-static',
+5 verbose install     'wiredep',
+5 verbose install     'gulp-tape' ] ]
+6 info preinstall @
+7 verbose readDependencies using package.json deps
+8 verbose already installed skipping systemjs@^0.10.2 /home/joe/www/es6-experiments
+9 verbose already installed skipping vinyl-transform@^1.0.0 /home/joe/www/es6-experiments
+10 verbose already installed skipping apache-server-configs@^2.7.1 /home/joe/www/es6-experiments
+11 verbose already installed skipping connect@^3.0.1 /home/joe/www/es6-experiments
+12 verbose already installed skipping connect-livereload@^0.5.0 /home/joe/www/es6-experiments
+13 verbose already installed skipping del@^0.1.0 /home/joe/www/es6-experiments
+14 verbose already installed skipping gulp@^3.6.0 /home/joe/www/es6-experiments
+15 verbose already installed skipping gulp-autoprefixer@^1.0.1 /home/joe/www/es6-experiments
+16 verbose already installed skipping gulp-cache@^0.2.2 /home/joe/www/es6-experiments
+17 verbose already installed skipping gulp-csso@^0.2.6 /home/joe/www/es6-experiments
+18 verbose already installed skipping gulp-filter@^1.0.2 /home/joe/www/es6-experiments
+19 verbose already installed skipping gulp-flatten@^0.0.4 /home/joe/www/es6-experiments
+20 verbose already installed skipping gulp-if@^1.2.1 /home/joe/www/es6-experiments
+21 verbose already installed skipping gulp-imagemin@^1.2.1 /home/joe/www/es6-experiments
+22 verbose already installed skipping gulp-inject@^1.0.2 /home/joe/www/es6-experiments
+23 verbose already installed skipping gulp-jshint@^1.5.3 /home/joe/www/es6-experiments
+24 verbose already installed skipping gulp-livereload@^2.0.0 /home/joe/www/es6-experiments
+25 verbose already installed skipping gulp-load-plugins@^0.7.1 /home/joe/www/es6-experiments
+26 verbose already installed skipping gulp-minify-html@^0.1.6 /home/joe/www/es6-experiments
+27 verbose already installed skipping gulp-plumber@^0.6.3 /home/joe/www/es6-experiments
+28 verbose already installed skipping gulp-replace@^0.4.0 /home/joe/www/es6-experiments
+29 verbose already installed skipping gulp-ruby-sass@^0.7.1 /home/joe/www/es6-experiments
+30 verbose already installed skipping gulp-size@^1.1.0 /home/joe/www/es6-experiments
+31 verbose already installed skipping gulp-uglify@^1.0.1 /home/joe/www/es6-experiments
+32 verbose already installed skipping gulp-useref@^1.0.2 /home/joe/www/es6-experiments
+33 verbose already installed skipping jshint-stylish@^1.0.0 /home/joe/www/es6-experiments
+34 verbose already installed skipping lazypipe@^0.2.1 /home/joe/www/es6-experiments
+35 verbose already installed skipping main-bower-files@^2.1.0 /home/joe/www/es6-experiments
+36 verbose already installed skipping opn@^1.0.0 /home/joe/www/es6-experiments
+37 verbose already installed skipping serve-index@^1.1.4 /home/joe/www/es6-experiments
+38 verbose already installed skipping serve-static@^1.4.0 /home/joe/www/es6-experiments
+39 verbose already installed skipping wiredep@^2.0.0 /home/joe/www/es6-experiments
+40 verbose cache add [ 'gulp-tape@git@github.com:josephfinlayson/gulp-tape.git#master',
+40 verbose cache add   null ]
+41 verbose cache add name=undefined spec="gulp-tape@git@github.com:josephfinlayson/gulp-tape.git#master" args=["gulp-tape@git@github.com:josephfinlayson/gulp-tape.git#master",null]
+42 verbose parsed url { protocol: null,
+42 verbose parsed url   slashes: null,
+42 verbose parsed url   auth: null,
+42 verbose parsed url   host: null,
+42 verbose parsed url   port: null,
+42 verbose parsed url   hostname: null,
+42 verbose parsed url   hash: '#master',
+42 verbose parsed url   search: null,
+42 verbose parsed url   query: null,
+42 verbose parsed url   pathname: 'gulp-tape@git@github.com:josephfinlayson/gulp-tape.git',
+42 verbose parsed url   path: 'gulp-tape@git@github.com:josephfinlayson/gulp-tape.git',
+42 verbose parsed url   href: 'gulp-tape@git@github.com:josephfinlayson/gulp-tape.git#master' }
+43 verbose already installed skipping gulp-sourcemaps@^1.2.8 /home/joe/www/es6-experiments
+44 verbose already installed skipping qwest@^1.4.0 /home/joe/www/es6-experiments
+45 verbose cache add name="gulp-tape" spec="git@github.com:josephfinlayson/gulp-tape.git#master" args=["gulp-tape","git@github.com:josephfinlayson/gulp-tape.git#master"]
+46 verbose parsed url { protocol: null,
+46 verbose parsed url   slashes: null,
+46 verbose parsed url   auth: null,
+46 verbose parsed url   host: null,
+46 verbose parsed url   port: null,
+46 verbose parsed url   hostname: null,
+46 verbose parsed url   hash: '#master',
+46 verbose parsed url   search: null,
+46 verbose parsed url   query: null,
+46 verbose parsed url   pathname: 'git@github.com:josephfinlayson/gulp-tape.git',
+46 verbose parsed url   path: 'git@github.com:josephfinlayson/gulp-tape.git',
+46 verbose parsed url   href: 'git@github.com:josephfinlayson/gulp-tape.git#master' }
+47 verbose addNamed [ 'gulp-tape',
+47 verbose addNamed   'git@github.com:josephfinlayson/gulp-tape.git#master' ]
+48 verbose addNamed [ null, null ]
+49 silly lockFile 47519503-phfinlayson-gulp-tape-git-master gulp-tape@git@github.com:josephfinlayson/gulp-tape.git#master
+50 verbose lock gulp-tape@git@github.com:josephfinlayson/gulp-tape.git#master /home/joe/.npm/47519503-phfinlayson-gulp-tape-git-master.lock
+51 info addNameTag [ 'gulp-tape',
+51 info addNameTag   'git@github.com:josephfinlayson/gulp-tape.git#master' ]
+52 verbose request where is /gulp-tape
+53 verbose request registry https://registry.npmjs.org/
+54 verbose request id 0f05d76e59d73fd1
+55 verbose url raw /gulp-tape
+56 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-tape' ]
+57 verbose url resolved https://registry.npmjs.org/gulp-tape
+58 verbose request where is https://registry.npmjs.org/gulp-tape
+59 info trying registry request attempt 1 at 15:46:02
+60 http GET https://registry.npmjs.org/gulp-tape
+61 http 404 https://registry.npmjs.org/gulp-tape
+62 verbose headers { date: 'Mon, 15 Dec 2014 15:46:03 GMT',
+62 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+62 verbose headers   'content-type': 'application/json',
+62 verbose headers   'cache-control': 'max-age=0',
+62 verbose headers   'content-length': '52',
+62 verbose headers   'accept-ranges': 'bytes',
+62 verbose headers   via: '1.1 varnish',
+62 verbose headers   age: '0',
+62 verbose headers   'x-served-by': 'cache-lhr6324-LHR',
+62 verbose headers   'x-cache': 'MISS',
+62 verbose headers   'x-cache-hits': '0',
+62 verbose headers   'x-timer': 'S1418658363.464898,VS0,VE88',
+62 verbose headers   'keep-alive': 'timeout=10, max=50',
+62 verbose headers   connection: 'Keep-Alive' }
+63 silly registry.get cb [ 404,
+63 silly registry.get   { date: 'Mon, 15 Dec 2014 15:46:03 GMT',
+63 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+63 silly registry.get     'content-type': 'application/json',
+63 silly registry.get     'cache-control': 'max-age=0',
+63 silly registry.get     'content-length': '52',
+63 silly registry.get     'accept-ranges': 'bytes',
+63 silly registry.get     via: '1.1 varnish',
+63 silly registry.get     age: '0',
+63 silly registry.get     'x-served-by': 'cache-lhr6324-LHR',
+63 silly registry.get     'x-cache': 'MISS',
+63 silly registry.get     'x-cache-hits': '0',
+63 silly registry.get     'x-timer': 'S1418658363.464898,VS0,VE88',
+63 silly registry.get     'keep-alive': 'timeout=10, max=50',
+63 silly registry.get     connection: 'Keep-Alive' } ]
+64 info maybeGithub Attempting git@github.com:josephfinlayson/gulp-tape.git#master from git://github.com/git@github.com:josephfinlayson/gulp-tape.git#master
+65 silly lockFile 8d6b32e5-om-josephfinlayson-gulp-tape-git git://github.com/git@github.com:josephfinlayson/gulp-tape.git
+66 verbose lock git://github.com/git@github.com:josephfinlayson/gulp-tape.git /home/joe/.npm/8d6b32e5-om-josephfinlayson-gulp-tape-git.lock
+67 verbose addRemoteGit [ 'git://github.com/git@github.com:josephfinlayson/gulp-tape.git',
+67 verbose addRemoteGit   'master' ]
+68 verbose git clone git://github.com/git@github.com:josephfinlayson/gulp-tape.git Cloning into bare repository '/home/joe/.npm/_git-remotes/git-github-com-git-github-com-josephfinlayson-gulp-tape-git-8d6b32e5'...
+68 verbose git clone git://github.com/git@github.com:josephfinlayson/gulp-tape.git fatal: remote error:
+68 verbose git clone git://github.com/git@github.com:josephfinlayson/gulp-tape.git   git@github.com:josephfinlayson/gulp-tape is not a valid repository name
+68 verbose git clone git://github.com/git@github.com:josephfinlayson/gulp-tape.git   Email support@github.com for help
+69 silly lockFile 8d6b32e5-om-josephfinlayson-gulp-tape-git git://github.com/git@github.com:josephfinlayson/gulp-tape.git
+70 silly lockFile 8d6b32e5-om-josephfinlayson-gulp-tape-git git://github.com/git@github.com:josephfinlayson/gulp-tape.git
+71 info maybeGithub Attempting git@github.com:josephfinlayson/gulp-tape.git#master from git+ssh://git@github.com:git@github.com:josephfinlayson/gulp-tape.git#master
+72 silly lockFile 97b4ba0c-om-josephfinlayson-gulp-tape-git git@github.com:git@github.com:josephfinlayson/gulp-tape.git
+73 verbose lock git@github.com:git@github.com:josephfinlayson/gulp-tape.git /home/joe/.npm/97b4ba0c-om-josephfinlayson-gulp-tape-git.lock
+74 verbose addRemoteGit [ 'git@github.com:git@github.com:josephfinlayson/gulp-tape.git',
+74 verbose addRemoteGit   'master' ]
+75 error git clone git@github.com:git@github.com:josephfinlayson/gulp-tape.git Cloning into bare repository '/home/joe/.npm/_git-remotes/git-github-com-git-github-com-josephfinlayson-gulp-tape-git-97b4ba0c'...
+75 error git clone git@github.com:git@github.com:josephfinlayson/gulp-tape.git fatal: remote error:
+75 error git clone git@github.com:git@github.com:josephfinlayson/gulp-tape.git    is not a valid repository name
+75 error git clone git@github.com:git@github.com:josephfinlayson/gulp-tape.git   Email support@github.com for help
+76 silly lockFile 97b4ba0c-om-josephfinlayson-gulp-tape-git git@github.com:git@github.com:josephfinlayson/gulp-tape.git
+77 silly lockFile 97b4ba0c-om-josephfinlayson-gulp-tape-git git@github.com:git@github.com:josephfinlayson/gulp-tape.git
+78 silly lockFile 47519503-phfinlayson-gulp-tape-git-master gulp-tape@git@github.com:josephfinlayson/gulp-tape.git#master
+79 silly lockFile 47519503-phfinlayson-gulp-tape-git-master gulp-tape@git@github.com:josephfinlayson/gulp-tape.git#master
+80 error 404 404 Not Found: gulp-tape
+80 error 404
+80 error 404 'gulp-tape' is not in the npm registry.
+80 error 404 You should bug the author to publish it
+80 error 404
+80 error 404 Note that you can also install from a
+80 error 404 tarball, folder, or http url, or git url.
+81 error System Linux 3.13.0-43-generic
+82 error command "/home/joe/.nvm/v0.10.33/bin/node" "/home/joe/.nvm/v0.10.33/bin/npm" "install"
+83 error cwd /home/joe/www/es6-experiments
+84 error node -v v0.10.33
+85 error npm -v 1.4.28
+86 error code E404
+87 verbose exit [ 1, true ]

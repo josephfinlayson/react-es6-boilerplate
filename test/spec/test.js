@@ -1,13 +1,10 @@
-/* global describe, it */
+var test = require('tape');
+// import {idFetcher} from './../../app/scripts/services/httpServices'
 
-(function () {
-  'use strict';
+test('Check if http service is instantiated', function (t) {
+    t.plan(1);
+    t.equal(typeof idFetcher, 'function');
+});
 
-  describe('Give it some context', function () {
-    describe('maybe a bit more context here', function () {
-      it('should run here few assertions', function () {
 
-      });
-    });
-  });
-})();
+

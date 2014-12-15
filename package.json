@@ -16,6 +16,7 @@
     "gulp-flatten": "^0.0.4",
     "gulp-if": "^1.2.1",
     "gulp-imagemin": "^1.2.1",
+    "gulp-inject": "^1.0.2",
     "gulp-jshint": "^1.5.3",
     "gulp-livereload": "^2.0.0",
     "gulp-load-plugins": "^0.7.1",
@@ -32,6 +33,13 @@
     "opn": "^1.0.0",
     "serve-index": "^1.1.4",
     "serve-static": "^1.4.0",
-    "wiredep": "^2.0.0"
+    "wiredep": "^2.0.0",
+    "gulp-tape": "josephfinlayson/gulp-tape.git#master"
+  },
+  "dependencies": {
+    "gulp-sourcemaps": "^1.2.8",
+    "qwest": "^1.4.0",
+    "systemjs": "^0.10.2",
+    "vinyl-transform": "^1.0.0"
   }
 }

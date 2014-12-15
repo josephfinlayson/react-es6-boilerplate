@@ -1,2 +1,5 @@
 /* jshint devel:true */
-console.log('\'Allo \'Allo!');
+import {test} from './test'
+import {idFetcher} from './services/httpServices'
+
+console.log(test);
