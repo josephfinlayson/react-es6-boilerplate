@@ -1,0 +1,12 @@
+<li repeat="artist in artists.topartists.artist">
+<pre>{{artist}}</pre>
+
+    <a slide-toggle="#artistSlideable"
+    on-close="pauseArtistPlayer"
+    on-open="playArtistPlayer"
+    style="background-image: url({{artist.image[2]['#text']}})"
+    ng-click="setVideoId(artist, 'artist')">
+        <span>{{artist.name}}
+            <br />{{artist.playcount}} plays</span>
+    </a>
+</li>
