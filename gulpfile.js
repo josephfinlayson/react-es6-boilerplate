@@ -6,7 +6,8 @@ var $ = require('gulp-load-plugins')();
 var to5 = require('gulp-6to5');
 var browserify = require('browserify');
 var to5ify = require("6to5ify");
-var fs = require('fs')
+var fs = require('fs');
+
 gulp.task('styles', function() {
     return gulp.src('app/styles/main.scss')
         .pipe($.plumber())
@@ -126,7 +127,7 @@ gulp.task('scripts', function() {
     // var browserified = transform(function(filename) {
     //     return
 
-    //     gulp.src('app/scripts/main.js')
+    //     gulp.src('app/scripts/main.jsx')
     //         .pipe(browserified)
     //         .pipe(gulp.dest('.tmp/scripts'))
 
@@ -137,7 +138,7 @@ gulp.task('scripts', function() {
         .transform(to5ify.configure({
             sourceMap: 'inline'
         }))
-        .require("./app/scripts/main.js", {
+        .require("./app/scripts/main.jsx", {
             entry: true
         })
         .bundle()

@@ -5,7 +5,8 @@ import {
 from './../../app/scripts/services/httpServices'
 
 var test = require('tape')
-console.log(videoIdService)
+
+
 test('Check if http service exists', function(t) {
     t.plan(1);
     t.equal(typeof videoIdService, 'function');
